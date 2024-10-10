@@ -20,6 +20,7 @@ public class Demo01 {
         int[] v = {15, 20, 30};
         int weight = 4;
         System.out.println(doDp01(w, v, weight));
+        System.out.println(doDp02(w, v, weight));
     }
 
     private static int doDp01(int[] w, int[] v, int weight) {
@@ -37,5 +38,17 @@ public class Demo01 {
         return dp[w.length][weight];
     }
 
+    private static int doDp02(int[] w, int[] v, int weight) {
+        int[] dp = new int[weight + 1];
+        for (int i = 0; i < w.length; i++) {
+            for (int j = weight; j > 0; j--) {
 
+                dp[j] = Math.max(dp[j] , dp[j - w[i]] + v[i]);
+            }
+        }
+        return dp[weight];
+
+    }
+    
+    
 }
