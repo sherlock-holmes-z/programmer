@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/array/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/list/List001.java" afterDir="false" />
+    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="dp">
+      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp96.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_343.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gulu/code/array/Array001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gulu/code/array/Array001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Array001.executor": "Debug",
+    "Application.Demo01.executor": "Run",
     "Application.Dp62.executor": "Run",
+    "Application.Dp96.executor": "Run",
+    "Application.Dp_343.executor": "Run",
     "Application.Dp_509.executor": "Run",
     "Application.Dp_63.executor": "Run",
     "Application.Dp_70.executor": "Run",
@@ -67,7 +64,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dp_63">
+  <component name="RunManager" selected="Application.Demo01">
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Demo01" />
+      <module name="programmer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gulu.code.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dp62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp62" />
       <module name="programmer" />
@@ -81,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp_509" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_509" />
+    <configuration name="Dp96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp96" />
+      <module name="programmer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gulu.code.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dp_343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_343" />
       <module name="programmer" />
       <extension name="coverage">
         <pattern>
@@ -107,39 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp_70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_70" />
-      <module name="programmer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gulu.code.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dp_746" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_746" />
-      <module name="programmer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gulu.code.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01" />
+        <item itemvalue="Application.Dp96" />
+        <item itemvalue="Application.Dp_343" />
         <item itemvalue="Application.Dp_63" />
         <item itemvalue="Application.Dp62" />
-        <item itemvalue="Application.Dp_746" />
-        <item itemvalue="Application.Dp_509" />
-        <item itemvalue="Application.Dp_70" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,10 @@
       <workItem from="1727243854206" duration="1204000" />
       <workItem from="1727249393298" duration="115000" />
       <workItem from="1727249514709" duration="3830000" />
-      <workItem from="1727332614017" duration="3512000" />
+      <workItem from="1727332614017" duration="3829000" />
+      <workItem from="1727589778377" duration="4709000" />
+      <workItem from="1727661207872" duration="2407000" />
+      <workItem from="1728526184082" duration="8774000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727162646105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dp">
+      <option name="closed" value="true" />
+      <created>1727343242562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727343242562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,8 +194,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/gulu/code/dp/Dp_63.java</url>
-          <line>31</line>
+          <line>35</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gulu/code/dp/Dp_63.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
