@@ -1,4 +1,4 @@
-package com.gulu.code.dp;
+package com.gulu.code.dp.backpack;
 
 import javax.crypto.Mac;
 import java.util.Arrays;
@@ -41,14 +41,14 @@ public class Demo01 {
     private static int doDp02(int[] w, int[] v, int weight) {
         int[] dp = new int[weight + 1];
         for (int i = 0; i < w.length; i++) {
-            for (int j = weight; j > 0; j--) {
-
-                dp[j] = Math.max(dp[j] , dp[j - w[i]] + v[i]);
+            for (int j = weight; j - w[i] >= 0; j--) {  // 倒序遍历时为了防止物品的重复使用
+                // dp[j] 不使用当前物品时最大的价值
+                // dp[j - w[i]] + v[i] 使用当前物品时，最大的价值
+                dp[j] = Math.max(dp[j], dp[j - w[i]] + v[i]);
             }
         }
         return dp[weight];
-
     }
-    
-    
+
+
 }
