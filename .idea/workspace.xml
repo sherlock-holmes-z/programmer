@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="dp_bag">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_416.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_416.java" afterDir="false" />
+    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="分割等和子集">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1727661207872" duration="2407000" />
       <workItem from="1728526184082" duration="9107000" />
       <workItem from="1728700874599" duration="3704000" />
-      <workItem from="1728885901377" duration="1919000" />
+      <workItem from="1728885901377" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -180,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728552334362</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="分割等和子集">
+      <option name="closed" value="true" />
+      <created>1728890668826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728890668827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +248,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="dp" />
     <MESSAGE value="dp_bag" />
-    <option name="LAST_COMMIT_MESSAGE" value="dp_bag" />
+    <MESSAGE value="分割等和子集" />
+    <option name="LAST_COMMIT_MESSAGE" value="分割等和子集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,11 +268,6 @@
           <url>file://$PROJECT_DIR$/src/com/gulu/code/dp/Dp_63.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gulu/code/dp/Dp_416.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
