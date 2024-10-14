@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="分割等和子集">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="忽略.idea">
+      <change afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_1049.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_96.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
     "Application.Demo01.executor": "Debug",
     "Application.Dp62.executor": "Run",
     "Application.Dp96.executor": "Run",
+    "Application.Dp_1049.executor": "Run",
     "Application.Dp_343.executor": "Run",
     "Application.Dp_416.executor": "Debug",
     "Application.Dp_509.executor": "Run",
@@ -60,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dp_416">
+  <component name="RunManager" selected="Application.Dp_1049">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.backpack.Demo01" />
       <module name="programmer" />
@@ -74,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp96" />
+    <configuration name="Dp_1049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_1049" />
       <module name="programmer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gulu.code.dp.backpack.*" />
+          <option name="PATTERN" value="com.gulu.code.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp_63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_63" />
+    <configuration name="Dp_96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_96" />
       <module name="programmer" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dp_1049" />
         <item itemvalue="Application.Dp_416" />
         <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.Dp96" />
+        <item itemvalue="Application.Dp_96" />
         <item itemvalue="Application.Dp_343" />
-        <item itemvalue="Application.Dp_63" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +158,7 @@
       <workItem from="1727661207872" duration="2407000" />
       <workItem from="1728526184082" duration="9107000" />
       <workItem from="1728700874599" duration="3704000" />
-      <workItem from="1728885901377" duration="2238000" />
+      <workItem from="1728885901377" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -187,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728890668827</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="忽略.idea">
+      <option name="closed" value="true" />
+      <created>1728890743585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728890743585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +262,8 @@
     <MESSAGE value="dp" />
     <MESSAGE value="dp_bag" />
     <MESSAGE value="分割等和子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="分割等和子集" />
+    <MESSAGE value="忽略.idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略.idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

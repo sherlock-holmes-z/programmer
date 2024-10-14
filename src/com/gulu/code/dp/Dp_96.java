@@ -6,7 +6,7 @@ package com.gulu.code.dp;
  * @author chocolate
  * 2024/10/10 15:16
  */
-public class Dp96 {
+public class Dp_96 {
 
     public static void main(String[] args) {
         System.out.println(numTrees(3));
