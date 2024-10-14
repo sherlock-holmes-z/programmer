@@ -26,8 +26,13 @@ public class Dp_416 {
 
         sum = sum >> 1;
 
-        // todo
-        return true;
+        int[] dp = new int[sum + 1];
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = sum; j - nums[i] >= 0; j--) {
+                dp[j] = Math.max(nums[i] + dp[j - nums[i]], dp[j]);
+            }
+        }
+        return dp[sum] == sum;
     }
 
 
