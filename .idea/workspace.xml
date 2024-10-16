@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="最后一块石头的重量">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="731cf8ae-ed95-48ee-847d-1b07856e845e" name="Changes" comment="忽略./idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_494.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gulu/code/dp/Dp_494.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Application.Dp_1049.executor": "Run",
     "Application.Dp_343.executor": "Run",
     "Application.Dp_416.executor": "Debug",
+    "Application.Dp_494.executor": "Run",
     "Application.Dp_509.executor": "Run",
     "Application.Dp_63.executor": "Run",
     "Application.Dp_70.executor": "Run",
@@ -61,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dp_1049">
+  <component name="RunManager" selected="Application.Dp_494">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.backpack.Demo01" />
       <module name="programmer" />
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp_343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_343" />
+    <configuration name="Dp_416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_416" />
       <module name="programmer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gulu.code.dp.backpack.*" />
+          <option name="PATTERN" value="com.gulu.code.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dp_416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_416" />
+    <configuration name="Dp_494" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gulu.code.dp.Dp_494" />
       <module name="programmer" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dp_494" />
         <item itemvalue="Application.Dp_1049" />
         <item itemvalue="Application.Dp_416" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Dp_96" />
-        <item itemvalue="Application.Dp_343" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +156,9 @@
       <workItem from="1727661207872" duration="2407000" />
       <workItem from="1728526184082" duration="9107000" />
       <workItem from="1728700874599" duration="3704000" />
-      <workItem from="1728885901377" duration="6608000" />
+      <workItem from="1728885901377" duration="7864000" />
+      <workItem from="1728979851153" duration="615000" />
+      <workItem from="1729067466208" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -204,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728896869730</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="忽略./idea">
+      <option name="closed" value="true" />
+      <created>1728896972644</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728896972644</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +280,8 @@
     <MESSAGE value="分割等和子集" />
     <MESSAGE value="忽略.idea" />
     <MESSAGE value="最后一块石头的重量" />
-    <option name="LAST_COMMIT_MESSAGE" value="最后一块石头的重量" />
+    <MESSAGE value="忽略./idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略./idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
