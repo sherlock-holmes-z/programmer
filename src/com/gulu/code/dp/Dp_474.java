@@ -9,7 +9,7 @@ package com.gulu.code.dp;
  * @author chocolate
  * 2024/10/24 14:35
  */
-public class Dp474 {
+public class Dp_474 {
 
     public static void main(String[] args) {
         String[] str = {"10", "0001", "111001", "1", "0"};
@@ -31,7 +31,7 @@ public class Dp474 {
 
             for (int i = m; i >= num0; i--) {
                 for (int j = n; j >= num1; j--) {
-                    dp[i][j] = Math.max(dp[i- num0][j - num1] + 1,dp[i][j]);
+                    dp[i][j] = Math.max(dp[i - num0][j - num1] + 1, dp[i][j]);
                 }
             }
         }
