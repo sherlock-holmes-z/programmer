@@ -22,7 +22,11 @@ public class Demo02 {
 
     private static int doCompleteDp01(int[] w, int[] v, int weight) {
         int[] dp = new int[weight + 1];
-
+        for (int i = 0; i < w.length; i++) {
+            for (int j = 1; j < dp.length && j >= w[i] ; j++) {
+                   dp[j] = Math.max(dp[j - 1],dp[j - w[i]] + v[i]);
+            }
+        }
         return dp[weight];
     }
 
