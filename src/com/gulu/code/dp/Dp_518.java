@@ -3,6 +3,8 @@ package com.gulu.code.dp;
 /**
  * 零钱兑换2
  *
+ * 求组合外层遍历背包，内层遍历物品
+ *
  * @author chocolate
  * 2024/10/24 16:10
  */
