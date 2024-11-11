@@ -12,6 +12,12 @@ public class Dp_121 {
         System.out.println(maxProfit(prices));
     }
 
+    /**
+     * 贪心方式，从左向右遍历，取当前最大值减取左边最小值
+     *
+     * @param prices
+     * @return
+     */
     public static int maxProfit(int[] prices) {
         int min = prices[0];
         int max = 0;
